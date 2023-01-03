@@ -24,3 +24,7 @@ Step은 Task와 Chunk로 구분할 수 있다
 
 DB Table
 - `org.springframework.batch:spring-batch-core`에서 확인 가능하다
+
+Job 실행
+- Parameter 값이 들어가는데, 1개의 잡은 동일한 파라미터로 새로 시작될 수 없다. 
+- 재실행된다
