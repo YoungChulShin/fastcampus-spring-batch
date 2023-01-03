@@ -16,3 +16,11 @@ Step
 ```
 job의 실행 단위
 ```
+
+Step은 Task와 Chunk로 구분할 수 있다
+- Task: 한번에 실행
+- Chunk: 나누어서 실행
+   - ItemReader, ItemProcessor, ItemWriter
+
+DB Table
+- `org.springframework.batch:spring-batch-core`에서 확인 가능하다
