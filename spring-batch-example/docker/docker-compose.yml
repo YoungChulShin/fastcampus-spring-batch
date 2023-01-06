@@ -7,4 +7,6 @@ services:
       - "3306:3306"
     environment:
       - MYSQL_ROOT_PASSWORD=secret
+    volumes:
+      - ~/Programs/05.volume/spring-batch:/var/lib/mysql
     command: mysqld --skip-ssl --character_set_server=utf8mb4 --lower_case_table_names=1
